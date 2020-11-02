@@ -92,7 +92,7 @@ export class Search {
 
     this.searchField = createElement(
       'input',
-      CLASS_SEARCH_FIELD
+      CLASS_SEARCH_FIELD + ' ' + this.options.inputClass
     ) as HTMLInputElement;
     this.searchField.placeholder = this.i18n.search;
     this.searchContainer.appendChild(this.searchField);

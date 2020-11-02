@@ -1,5 +1,3 @@
-import '../css/emoji-button.css';
-
 import createFocusTrap, { FocusTrap } from 'focus-trap';
 import { TinyEmitter as Emitter } from 'tiny-emitter';
 import { createPopper, Instance as Popper, Placement } from '@popperjs/core';
